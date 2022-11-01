@@ -1,0 +1,42 @@
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15vh;
+  height: calc(100vh - 56px); /* router view - navbar height */
+  overflow: scroll;
+  color: black;
+}
+
+.card {
+  border-radius: 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 5vh;
+  padding: 30px;
+}
+
+.CompanyCard-Card {
+  padding: 30px;
+}
+
+
+
+.CompanyCard a {
+  color: rgb(73, 71, 71);
+  text-decoration: none;
+}
+
+.card:hover {
+  color: rgb(0, 0, 0);
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+h5 {
+  font-weight: bold;
+}
